@@ -1,6 +1,7 @@
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  /* background-color: rgb(20, 20, 20); */
+  background-color: rgb(55, 193, 228);
   overflow: scroll;
   text-align: center;
   overflow: hidden;
@@ -11,11 +12,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 30px 0 30px;
+  padding: 0 10px 0 10px;
   color: white;
   position: relative;
   /* background-color: #35aee2; */
 }
+
+.top-image {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+
+
+
 
 .authed-container {
   height: 100%;
@@ -28,14 +40,19 @@
   /* background-color: #60c657; */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
 .header {
   margin: 0;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 30px;
+  
+  font-family: 'Cherry Swash', cursive;
 }
 
 .sub-text {
-  font-size: 25px;
+  margin: 5px auto;
+  font-size: 35px;
+  font-family: 'Cherry Swash', cursive;
+  font-weight: bold;
 }
 
 .gradient-text {

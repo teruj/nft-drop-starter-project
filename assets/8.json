@@ -1,0 +1,19 @@
+{
+    "name": "SEAHORSE",
+    "symbol": "",
+    "image": "8.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "8.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "AhBnVVkDQdcs3w7Xf9HovhgXpkWvbPqfJcmEg4tpwG4p",
+          "share": 100
+        }
+      ]
+    }
+  }
